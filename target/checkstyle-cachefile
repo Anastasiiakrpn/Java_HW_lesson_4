@@ -1,0 +1,17 @@
+#Thu Oct 31 18:05:49 EET 2024
+/Users/anastasiia/JavaHomework/src/main/java/org/anastasiiapanchenko/lesson3/Address.java=1730388430002
+/Users/anastasiia/JavaHomework/src/main/java/org/anastasiiapanchenko/lesson3/Grade.java=1730388446973
+/Users/anastasiia/JavaHomework/src/main/java/org/anastasiiapanchenko/lesson3/Student.java=1730388673881
+/Users/anastasiia/JavaHomework/src/main/java/org/anastasiiapanchenko/lesson3/StudentGradeRecord.java=1730388488752
+/Users/anastasiia/JavaHomework/src/main/java/org/anastasiiapanchenko/lesson4/Main.java=1730390742354
+/Users/anastasiia/JavaHomework/src/main/java/org/anastasiiapanchenko/lesson4/dto/UserRegistrationDto.java=1730380449879
+/Users/anastasiia/JavaHomework/src/main/java/org/anastasiiapanchenko/lesson4/dto/UserResponseDto.java=1730389405794
+/Users/anastasiia/JavaHomework/src/main/java/org/anastasiiapanchenko/lesson4/model/User.java=1730380402174
+/Users/anastasiia/JavaHomework/src/main/java/org/anastasiiapanchenko/lesson4/repository/UserRepository.java=1730389876126
+/Users/anastasiia/JavaHomework/src/main/java/org/anastasiiapanchenko/lesson4/repository/UserRepositoryJdbcImpl.java=1730390184041
+/Users/anastasiia/JavaHomework/src/main/java/org/anastasiiapanchenko/lesson4/service/UserService.java=1730389898379
+/Users/anastasiia/JavaHomework/src/main/java/org/anastasiiapanchenko/lesson4/service/UserServiceImpl.java=1730383492278
+/Users/anastasiia/JavaHomework/src/main/java/org/anastasiiapanchenko/lesson4/validation/UserValidator.java=1730390500254
+configuration*?=A7E038A616214D1D1BC1793BC1699FFB0CCF52C8
+module-resource*?\:checkstyle-suppressions.xml=A4A8A0D00567580CB96F8C6F1C7A322831808DA5
+module-resource*?\:checkstyle-xpath-suppressions.xml=1E5298B3BE9B1D1D725C4AF6BFD0F20C5728F478
