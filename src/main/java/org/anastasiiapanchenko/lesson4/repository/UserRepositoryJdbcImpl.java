@@ -15,7 +15,6 @@ public class UserRepositoryJdbcImpl implements UserRepository {
     private static final String USER = "kit";
     private static final String PASSWORD = "kit111";
 
-
     private static final int EMAIL_INDEX = 1;
     private static final int PHONE_INDEX = 2;
     private static final int PASSWORD_INDEX = 3;

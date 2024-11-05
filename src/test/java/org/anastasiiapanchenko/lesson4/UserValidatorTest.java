@@ -23,6 +23,7 @@ class UserValidatorTest {
     @Test
     void testPasswordsDoNotMatch() {
         UserRegistrationDto dto = new UserRegistrationDto();
+        dto.setEmail("kitVasyl@example.com");
         dto.setPassword("password");
         dto.setRepeatPassword("different");
 

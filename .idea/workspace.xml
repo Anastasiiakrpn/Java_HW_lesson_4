@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee349030-bcc4-4fd2-b20b-27d5d0e576a5" name="Changes" comment="PL" />
+    <list default="true" id="ee349030-bcc4-4fd2-b20b-27d5d0e576a5" name="Changes" comment="PL">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/db.changelog-master.yaml " afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/anastasiiapanchenko/lesson4/dto/UserRegistrationDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/anastasiiapanchenko/lesson4/dto/UserRegistrationDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/anastasiiapanchenko/lesson4/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/anastasiiapanchenko/lesson4/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/anastasiiapanchenko/lesson4/repository/UserRepositoryJdbcImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/anastasiiapanchenko/lesson4/repository/UserRepositoryJdbcImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/anastasiiapanchenko/lesson4/validation/UserValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/anastasiiapanchenko/lesson4/validation/UserValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/liquibase.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/liquibase.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/anastasiiapanchenko/lesson4/UserValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/anastasiiapanchenko/lesson4/UserValidatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-cachefile" beforeDir="false" afterPath="$PROJECT_DIR$/target/checkstyle-cachefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/checkstyle-result.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/liquibase.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/liquibase.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,17 +44,17 @@
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {}
 }</component>
-  <component name="GitHubPullRequestState"><![CDATA[{
-  "prStates": [
+  <component name="GitHubPullRequestState">{
+  &quot;prStates&quot;: [
     {
-      "id": {
-        "id": "PR_kwDONItFoM6AkHkW",
-        "number": 1
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDONItFoM6AkHkW&quot;,
+        &quot;number&quot;: 1
       },
-      "lastSeen": 1730715308053
+      &quot;lastSeen&quot;: 1730715308053
     }
   ]
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Anastasiiakrpn/JavaHomework.git&quot;,
@@ -74,10 +90,11 @@
     "JUnit.UserServiceTest.testGetUserById.executor": "Run",
     "JUnit.UserValidatorTest.executor": "Run",
     "JUnit.UserValidatorTest.testInvalidPhoneNumber.executor": "Run",
+    "JUnit.UserValidatorTest.testPasswordsDoNotMatch.executor": "Run",
     "JUnit.UserValidatorTest.testValidUserRegistration.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "HW__lesson__4",
+    "git-widget-placeholder": "main__hw__lesson__4",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -88,7 +105,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.UserValidatorTest.testPasswordsDoNotMatch">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.anastasiiapanchenko.lesson4.Main" />
       <module name="JavaHomework" />
@@ -115,21 +132,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaHomework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.anastasiiapanchenko.lesson4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.anastasiiapanchenko.lesson4" />
-      <option name="MAIN_CLASS_NAME" value="org.anastasiiapanchenko.lesson4.UserServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UserValidatorTest.testInvalidPhoneNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaHomework" />
       <extension name="coverage">
@@ -141,6 +143,22 @@
       <option name="PACKAGE_NAME" value="org.anastasiiapanchenko.lesson4" />
       <option name="MAIN_CLASS_NAME" value="org.anastasiiapanchenko.lesson4.UserValidatorTest" />
       <option name="METHOD_NAME" value="testInvalidPhoneNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserValidatorTest.testPasswordsDoNotMatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaHomework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.anastasiiapanchenko.lesson4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.anastasiiapanchenko.lesson4" />
+      <option name="MAIN_CLASS_NAME" value="org.anastasiiapanchenko.lesson4.UserValidatorTest" />
+      <option name="METHOD_NAME" value="testPasswordsDoNotMatch" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -164,21 +182,13 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserValidatorTest.testPasswordsDoNotMatch" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.StudentGradeProcessor" />
         <item itemvalue="JUnit.UserValidatorTest.testInvalidPhoneNumber" />
         <item itemvalue="JUnit.UserValidatorTest.testValidUserRegistration" />
-        <item itemvalue="JUnit.UserServiceTest" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
