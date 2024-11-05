@@ -4,11 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee349030-bcc4-4fd2-b20b-27d5d0e576a5" name="Changes" comment="PL" />
+    <list default="true" id="ee349030-bcc4-4fd2-b20b-27d5d0e576a5" name="Changes" comment="PL">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/anastasiiapanchenko/lesson5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/anastasiiapanchenko/lesson5/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/anastasiiapanchenko/lesson5/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/anastasiiapanchenko/lesson5/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/anastasiiapanchenko/lesson5/repository/RoleRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/anastasiiapanchenko/lesson5/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/anastasiiapanchenko/lesson5/repository/UserRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/anastasiiapanchenko/lesson5/util/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/changes/1-create-role-table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/changes/2-create-user-table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/changes/3-create-user-role-table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/db.changelog-master.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/anastasiiapanchenko/lesson4/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/anastasiiapanchenko/lesson4/dto/UserRegistrationDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/anastasiiapanchenko/lesson4/dto/UserResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/anastasiiapanchenko/lesson4/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/anastasiiapanchenko/lesson4/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/anastasiiapanchenko/lesson4/repository/UserRepositoryJdbcImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/anastasiiapanchenko/lesson4/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/anastasiiapanchenko/lesson4/service/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/anastasiiapanchenko/lesson4/validation/UserValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/liquibase.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/liquibase.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/anastasiiapanchenko/lesson4/UserServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/anastasiiapanchenko/lesson4/UserValidatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-cachefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-checker.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-result.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/liquibase.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/liquibase.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -20,7 +58,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="main_hw_lesson_5" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,17 +66,17 @@
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {}
 }</component>
-  <component name="GitHubPullRequestState"><![CDATA[{
-  "prStates": [
+  <component name="GitHubPullRequestState">{
+  &quot;prStates&quot;: [
     {
-      "id": {
-        "id": "PR_kwDONItFoM6AkHkW",
-        "number": 1
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDONItFoM6AkHkW&quot;,
+        &quot;number&quot;: 1
       },
-      "lastSeen": 1730715308053
+      &quot;lastSeen&quot;: 1730715308053
     }
   ]
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Anastasiiakrpn/JavaHomework.git&quot;,
@@ -55,6 +93,15 @@
     &quot;repository&quot;: &quot;JavaHomework&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.34/lombok-1.18.34-sources.jar!/lombok/Setter.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -64,47 +111,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.Solution.executor": "Run",
-    "Application.StudentGradeProcessor.executor": "Run",
-    "Application.org.anastasiiapanchenko.lesson2.validParenthese.Solution.executor": "Run",
-    "JUnit.UserServiceTest.executor": "Run",
-    "JUnit.UserServiceTest.testGetUserById.executor": "Run",
-    "JUnit.UserValidatorTest.executor": "Run",
-    "JUnit.UserValidatorTest.testInvalidPhoneNumber.executor": "Run",
-    "JUnit.UserValidatorTest.testValidUserRegistration.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "HW__lesson__4",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudentGradeProcessor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.anastasiiapanchenko.lesson2.validParenthese.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.anastasiiapanchenko.lesson5.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceTest.testGetUserById.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserValidatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserValidatorTest.testInvalidPhoneNumber.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserValidatorTest.testValidUserRegistration.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main__hw__lesson__4&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/anastasiia/JavaHomework — 1111111111111111&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.anastasiiapanchenko.lesson4.Main" />
-      <module name="JavaHomework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.anastasiiapanchenko.lesson4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}</component>
+  <component name="RunManager" selected="Application.org.anastasiiapanchenko.lesson5.Main">
     <configuration name="StudentGradeProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.anastasiiapanchenko.lesson3.StudentGradeProcessor" />
-      <module name="JavaHomework" />
+      <module name="JavaHW" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.anastasiiapanchenko.lesson3.*" />
@@ -115,8 +153,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.anastasiiapanchenko.lesson5.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.anastasiiapanchenko.lesson5.Main" />
+      <module name="JavaHW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.anastasiiapanchenko.lesson5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaHomework" />
+      <module name="JavaHW" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.anastasiiapanchenko.lesson4.*" />
@@ -131,7 +182,7 @@
       </method>
     </configuration>
     <configuration name="UserValidatorTest.testInvalidPhoneNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaHomework" />
+      <module name="JavaHW" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.anastasiiapanchenko.lesson4.*" />
@@ -147,7 +198,7 @@
       </method>
     </configuration>
     <configuration name="UserValidatorTest.testValidUserRegistration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaHomework" />
+      <module name="JavaHW" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.anastasiiapanchenko.lesson4.*" />
@@ -162,23 +213,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="JavaHW" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="JavaHW" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.StudentGradeProcessor" />
-        <item itemvalue="JUnit.UserValidatorTest.testInvalidPhoneNumber" />
+        <item itemvalue="Application.org.anastasiiapanchenko.lesson5.Main" />
         <item itemvalue="JUnit.UserValidatorTest.testValidUserRegistration" />
+        <item itemvalue="JUnit.UserValidatorTest.testInvalidPhoneNumber" />
         <item itemvalue="JUnit.UserServiceTest" />
+        <item itemvalue="Application.StudentGradeProcessor" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -197,6 +253,16 @@
       <workItem from="1730401537971" duration="876000" />
       <workItem from="1730402480619" duration="1038000" />
       <workItem from="1730714899453" duration="1714000" />
+      <workItem from="1730727855154" duration="17516000" />
+      <workItem from="1730812086490" duration="1787000" />
+      <workItem from="1730813884984" duration="39000" />
+      <workItem from="1730813926857" duration="612000" />
+      <workItem from="1730814545877" duration="44000" />
+      <workItem from="1730814595207" duration="52000" />
+      <workItem from="1730814651761" duration="615000" />
+      <workItem from="1730815502080" duration="10000" />
+      <workItem from="1730816128616" duration="660000" />
+      <workItem from="1730816875066" duration="641000" />
     </task>
     <task id="LOCAL-00001" summary="PL">
       <option name="closed" value="true" />
@@ -228,7 +294,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="github/main" />
+                        <option value="main_hw_lesson_5" />
                       </list>
                     </value>
                   </entry>
