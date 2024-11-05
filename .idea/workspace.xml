@@ -155,7 +155,7 @@
     </configuration>
     <configuration name="org.anastasiiapanchenko.lesson5.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.anastasiiapanchenko.lesson5.Main" />
-      <module name="JavaHW" />
+      <module name="JavaHomework" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.anastasiiapanchenko.lesson5.*" />
